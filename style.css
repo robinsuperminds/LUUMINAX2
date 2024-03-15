@@ -1,0 +1,61 @@
+*{
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background: #1A1923;
+    min-height: 10vh;
+}
+body{
+    height: 100vh;
+    background: #1A1923;
+}
+.heading{
+    color: white;
+    text-align: left;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 1.0625rem;
+    font-size: clamp(1.0625rem, 0.8375rem + 1.125vw, 2.1875rem);
+}
+
+.heading span{
+    color: #0E8BFF;
+}
+
+footer{
+    margin-top: 5vh;
+    background:black;
+}
+.footer{
+    width: 100vw;
+    border-top: .5px solid black;
+    padding-top: 5vh;
+    padding-bottom: 2rem;
+}
+/* @media (max-width:600px) {
+    .heading{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    .enter{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    .inputbox{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    .downloadbtn{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    .footersecond{
+        position: relative;
+    }
+    body{
+        height: auto;
+    }
+} */
